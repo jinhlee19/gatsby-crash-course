@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 
-const Portfolio = () => {
+const Inquiry = () => {
   return (
     <Layout>
-      <h1>this is Portfolio page</h1>
+      <h1>this is Inquiry page</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis
         rem quasi natus nostrum velit delectus asperiores fugiat maiores,
@@ -17,4 +17,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Inquiry

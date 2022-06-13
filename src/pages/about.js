@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
-const About = () => (
-  <div>
+const AboutPage = () => (
+  <Layout>
     <h1>this is about page</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis rem
@@ -10,7 +10,7 @@ const About = () => (
       fugit. Pariatur aspernatur earum qui totam nulla ut ab consectetur, esse
       ex veniam? Itaque doloremque provident adipisci deleniti nobis?
     </p>
-  </div>
+  </Layout>
 )
 
-export default About
+export default AboutPage

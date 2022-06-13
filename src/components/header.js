@@ -3,8 +3,8 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
 const Header = ({ siteTitle }) => (
-  <header className="flex h-24 items-center jusify-between">
-    {siteTitle}
+  <header className="flex w-full h-24 items-center justify-between">
+    <div> {siteTitle}</div>
 
     <ul className="flex space-x-4 items-center">
       <li>
@@ -14,10 +14,10 @@ const Header = ({ siteTitle }) => (
         <Link to="/about">About</Link>
       </li>
       <li>
-        <Link to="">Portfolio</Link>
+        <Link to="/portfolio">Portfolio</Link>
       </li>
       <li>
-        <Link to="">Inquiry</Link>
+        <Link to="/inquiry">Inquiry</Link>
       </li>
       <li>
         <Link to="">Contact</Link>
